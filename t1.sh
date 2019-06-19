@@ -31,3 +31,6 @@ else
 	echo "没有此文件"
 	/usr/bin/ansible a -m shell -a "su - oracle -c '/opt/local/apache-tomcat-8.0.52/bin/startup.sh' warn=False"
 fi
+
+echo "12143325435265"
+1214e325r4365t435325r

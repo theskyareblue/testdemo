@@ -1,0 +1,25 @@
+#!/usr/bin/expect 
+if {$argc < 2} { 
+        send_user "usage: $argv0 port ip password\n"
+exit 
+} 
+#set username [lindex $argv 0] 
+set username root
+set port [lindex $argv 0] 
+set ip [lindex $argv 1] 
+set password [lindex $argv 2] 
+spawn ssh  -l ${username} -p ${port} ${ip}
+expect { 
+        "(yes/no)?"
+                { 
+                        send "yes\n"
+                        expect "*assword:" {send "$password\n"} 
+                } 
+        "*assword:"
+                { 
+                        send "$password\n"
+                } 
+} 
+#expect eof
+expect "]*"
+send "exit\r"

@@ -1,0 +1,43 @@
+[ 1531982676.431878]: IMSettings-Daemon[2290]: INFO: Starting imsettings-daemon...
+[ 1531982676.431959]: IMSettings-Daemon[2290]: INFO:   [HOME=/root/.config/imsettings]
+[ 1531982676.431980]: IMSettings-Daemon[2290]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1531982676.431996]: IMSettings-Daemon[2290]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1531982676.432011]: IMSettings-Daemon[2290]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1531982676.432028]: IMSettings-Daemon[2290]: INFO:   [MODULES=gsettings]
+
+imsettings information
+==========================
+XINPUTRC: /etc/X11/xinit//xinputrc
+	  文件："/etc/X11/xinit//xinputrc" -> "/etc/alternatives/xinputrc"
+	  大小：26        	块：0          IO 块：4096   符号链接
+	设备：fd00h/64768d	Inode：201326769   硬链接：1
+	权限：(0777/lrwxrwxrwx)  Uid：(    0/    root)   Gid：(    0/    root)
+	最近访问：2018-07-19 14:32:37.602378902 +0800
+	最近更改：2015-03-31 16:54:03.000000000 +0800
+	最近改动：2018-07-19 14:04:20.900474878 +0800
+	创建时间：-
+Is DBus enabled: yes
+Is imsettings enabled: yes
+Is GTK+ supported: yes
+Is Qt supported: no
+DESKTOP: gnome-classic
+GUESS_DESKTOP: $GDMSESSION
+DISABLE_IMSETTINGS: 
+IMSETTINGS_DISABLE_DESKTOP_CHECK: 
+DBUS_SESSION_BUS_ADDRESS: unix:abstract=/tmp/dbus-tN4C2Gjvhx,guid=aee8044be6c25d35dc5383135b503354
+GTK_IM_MODULE: 
+QT_IM_MODULE: xim
+XMODIFIERS: @im=ibus
+IMSETTINGS_MODULE: IBus
+IMSETTINGS_INTEGRATE_DESKTOP: yes
+
+[ 1531982681.324869]: IMSettings-Daemon[2290]: INFO: Attempting to switch IM to IBus [lang=zh_CN.UTF-8, update=false]
+org.gnome.settings-daemon.plugins.keyboard.active is true. imsettings is going to be disabled.
+
+[ 1531982681.645426]: IMSettings-Daemon[2290]: WARNING **: Current desktop isn't targeted by IMSettings.
+
+[ 1531982681.646341]: GLib-GIO[2290]: CRITICAL **: g_dbus_method_invocation_return_value_internal: assertion '(parameters == NULL) || g_variant_is_of_type (parameters, G_VARIANT_TYPE_TUPLE)' failed
+[ 1531982681.648357]: IMSettings-Daemon[2290]: INFO: Unloading imesttings module: gsettings
+[ 1531982681.648434]: IMSettings-Daemon[2290]: INFO: imsettings-daemon is shut down.
