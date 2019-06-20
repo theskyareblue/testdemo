@@ -14,8 +14,8 @@
 $
 
 # Command Line History (newest to oldest):
-:wq
 :q
+:wq
 :8080
 :set num
 :q!
@@ -48,9 +48,9 @@ $
 # Input Line History (newest to oldest):
 
 # 寄存器:
-"0	LINE	0
-	- include vars/main.yml
-""1	LINE	0
+""0	LINE	0
+	        System.out.println("修改1234");
+"1	LINE	0
 	path=${path%*/}
 "2	LINE	0
 	echo "${path}"
@@ -72,19 +72,27 @@ $
 	)
 
 # 文件标记:
-'0  36  20  ~/t1.sh
-'1  35  20  ~/t1.sh
-'2  26  10  ~/install_git.sh
-'3  17  6  ~/install_git.sh
-'4  3  14  /etc/yum.repos.d/my.repo
-'5  4  9  /etc/yum.repos.d/my.repo
-'6  81  49  /etc/profile
-'7  144  0  /etc/sysconfig/jenkins
-'8  29  17  /etc/sysconfig/jenkins
-'9  25  7  /etc/sysconfig/jenkins
+'0  25  8  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
+'1  28  0  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
+'2  24  37  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
+'3  1  0  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller
+'4  37  15  ~/t1.sh
+'5  12  0  ~/.git/config
+'6  36  20  ~/t1.sh
+'7  35  20  ~/t1.sh
+'8  26  10  ~/install_git.sh
+'9  17  6  ~/install_git.sh
 
 # 跳转列表 (从新到旧):
--'  36  20  ~/t1.sh
+-'  25  8  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
+-'  28  0  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
+-'  24  8  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
+-'  1  0  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
+-'  1  0  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller
+-'  37  15  ~/t1.sh
+-'  36  0  ~/t1.sh
+-'  12  0  ~/.git/config
+-'  1  0  ~/.git/config
 -'  35  0  ~/t1.sh
 -'  1  0  ~/t1.sh
 -'  26  10  ~/install_git.sh
@@ -173,24 +181,33 @@ $
 -'  1  0  /data/redis/stop.sh
 -'  448  17  /data/redis/etc/redis.conf
 -'  283  50  /data/redis/etc/redis.conf
--'  1317  0  /data/redis/etc/redis.conf
--'  10  0  /data/redis/etc/sentinel.conf
--'  20  0  /data/redis/etc/sentinel.conf
--'  293  8  /data/redis/etc/redis.conf
--'  1320  24  /data/redis/etc/redis.conf
--'  1  0  /data/redis/etc/redis.conf
--'  24  0  ~/t1.sh
--'  17  0  ~/t1.sh
--'  10  0  ~/t1.sh
 
 # 文件内的标记历史记录 (从新到旧):
 
+> ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
+	"	25	8
+	^	25	39
+	.	25	38
+	+	24	37
+	+	25	38
+
 > ~/t1.sh
-	"	36	20
-	^	36	21
-	.	36	20
+	"	37	15
+	^	37	16
+	.	37	15
 	+	35	19
 	+	36	20
+	+	37	15
+
+> ~/.git/config
+	"	12	0
+	^	12	0
+	.	14	7
+	+	13	6
+	+	16	12
+	+	17	14
+	+	15	8
+	+	14	7
 
 > ~/install_git.sh
 	"	26	10
@@ -431,72 +448,3 @@ $
 	+	11	29
 	+	16	13
 	+	18	1
-
-> /opt/local/t1.py
-	"	6	35
-	^	6	36
-	.	5	46
-	+	19	0
-	+	11	35
-	+	19	0
-	+	10	1
-	+	2	29
-	+	9	42
-	+	9	0
-	+	9	0
-	+	9	0
-	+	17	0
-	+	16	0
-	+	17	0
-	+	17	0
-	+	17	23
-	+	17	0
-	+	18	0
-	+	17	22
-	+	4	44
-	+	5	42
-	+	12	35
-	+	12	40
-	+	13	4
-	+	17	0
-	+	18	0
-	+	17	0
-	+	18	0
-	+	17	52
-	+	4	44
-	+	5	42
-	+	4	48
-	+	5	46
-	+	19	11
-	+	4	48
-	+	5	46
-	+	19	4
-	+	19	5
-	+	4	48
-	+	5	42
-	+	19	4
-	+	19	6
-	+	19	39
-	+	19	6
-	+	19	0
-	+	19	13
-	+	4	47
-	+	5	46
-	+	19	0
-	+	4	40
-	+	5	38
-	+	4	48
-	+	5	46
-	+	17	39
-	+	4	48
-	+	5	46
-
-> /opt/local/test.py
-	"	14	47
-	^	14	48
-	.	5	46
-	+	16	17
-	+	4	40
-	+	5	38
-	+	4	48
-	+	5	46
