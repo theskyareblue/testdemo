@@ -72,8 +72,8 @@ $
 	)
 
 # 文件标记:
-'0  25  8  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
-'1  28  0  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
+'0  28  0  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
+'1  25  8  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
 '2  24  37  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
 '3  1  0  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller
 '4  37  15  ~/t1.sh
@@ -84,8 +84,8 @@ $
 '9  17  6  ~/install_git.sh
 
 # 跳转列表 (从新到旧):
--'  25  8  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
 -'  28  0  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
+-'  25  8  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
 -'  24  8  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
 -'  1  0  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
 -'  1  0  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller
@@ -185,7 +185,7 @@ $
 # 文件内的标记历史记录 (从新到旧):
 
 > ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
-	"	25	8
+	"	28	0
 	^	25	39
 	.	25	38
 	+	24	37
