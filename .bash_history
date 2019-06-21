@@ -585,3 +585,269 @@ ll /proc/sys/fs/nr_open
 cat /proc/sys/fs/nr_open
 cat /etc/security/limits.d/20-nproc.conf 
 cat /etc/pam.d/login 
+tll
+ll
+vim install_git.sh
+ll
+chmod +x install_git.sh 
+cat install_git.sh 
+sh install_git.sh 
+ll
+git --version
+ll /mt
+ll /tmp/
+ll /data/
+ll /data/com
+which git
+git --version
+ll
+rm -rf git-2.9.5
+ll
+cat install_git.sh 
+sh -x install_git.sh 
+git --version
+ll
+ll common/
+vim install_git.sh 
+dos2unix install_git.sh 
+git --version
+git --help
+git init
+ll
+ll .git
+ll
+git add t1.sh
+git commit -m "test"
+ll .git/
+ll .git/branches/
+ll .git/objects/
+git config --global user.email "234315653@qq.com"
+git config --global user.name "sky"
+git commit -m "this is a test"
+git remote add origin https://github.com/theskyareblue/testdemo.git
+git push -u origin master
+vim t1.sh 
+git commit -m "echo了一下"
+git push
+git commit -m "echo了一下"
+git push
+git push -u origin master
+cat t1.sh 
+git fetch
+cat t1.sh 
+ll .gti
+ll .git
+ll .git/branches/
+ll .git/objects/
+find . -name "t1.sh"
+git push
+ping www.baidu.com
+git remote
+git remote --help
+git push remote
+ping https://github.com
+curl https://github.com
+git push
+cat t1.sh 
+vim t1.sh 
+git commit -m "修改了"
+git push
+git remote add origin https://github.com/theskyareblue/testdemo.git
+git push -u origin master
+git add -A
+git status
+git status |more
+cat t1.sh 
+git commit -m "111111"
+git status
+git push origin master
+vim t1.sh 
+git commit -m "t1改变了"
+git status
+git push origin master
+git add t1.sh
+git commit -m "t1改变了"
+git push origin master
+vim t1.sh 
+git add t1.sh
+git commit -m "t1you改变了"
+git push origin master
+git status
+cat t1.sh
+git pull origin master
+cat t1.sh
+ll
+rm -rf t1.sh 
+git checkout t1.sh
+ll
+cat t1.sh 
+rm -rf t1.sh 
+ll
+git checkout t1.sh
+ll
+mkdir demo
+ls
+cd demo/
+ll
+ls
+ll
+cd ..
+git --help
+git rm --help
+ls
+cd demo/
+ls
+git add xd-class
+git commit -m "提交代码"
+git status
+git push origin master
+git branch dev
+git branch
+git branch *1dev
+git branch -d dev
+git branch
+git branch dev
+git branch -m dev dev1
+git branch
+git status
+git add *
+git commit -m "提交"
+git status
+git push
+git status
+git branch
+git branch v2
+git branch
+git checkout v2
+git branch
+ll
+git add *
+git commit -m "v2"
+git status
+git push
+git status
+git checkout master
+git branch
+git add *
+git commit -m "systemout"
+git push
+git branch v2
+git checkout v2
+git checkout master
+git status
+git push origin master
+git status
+git commit -m "systemout"
+git push origin master
+git add *
+git commit -m "systemout"
+git push origin master
+git push -u origin master
+git log
+git remote add origin https://github.com/theskyareblue/testdemo.git
+git push -u origin master
+git push origin master
+git push origin v2
+git log =2
+git log -2
+git branch
+git log -p -2
+git log
+ll
+git branch
+git diff
+git push origin master
+git push
+git add *\
+vim /root/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
+git add *
+git commit -m "student.java change"
+git push
+git push origin master
+git pull origin master
+vim /root/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
+git add *
+git commit -m "student.java change"
+git pull origin master
+git push
+vim /root/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
+git status
+git commit -a
+git add -A
+git commit -m "student.java change"
+git pull origin master
+git status
+git push origin master
+vim /root/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
+git status
+git add -A
+git commit -m "student.java change"
+git push origin master
+git push
+vim /root/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
+git add *
+git commit -m "student.java change1"
+git push origin master
+git add /root/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
+cd /root/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/
+git add StudentController.java 
+git commit -m "student.java change1"
+git push origin master
+git push
+git remove
+
+git remote add origin https://github.com/theskyareblue/testdemo.git
+git push origin master
+curl https://github.com/theskyareblue/testdemo.git
+ping https://github.com/theskyareblue/testdemo.git
+ping www.baidu.com
+curl -I https://github.com/theskyareblue/testdemo.git
+git remote -v
+git config --list
+ll ~/ -a
+ll ~/.config/
+ssh-keygen -r rsa -C "234315653@qq.com"
+find / -name "id_rsa.pub"
+ll /root/.ssh/
+rm -rf /root/.ssh/id_rsa*
+rm -rf /root/.ssh/known_hosts 
+ssh-keygen -r rsa -C "234315653@qq.com"
+ll /root/.ssh/
+ssh-keygen -t rsa -C "234315653@qq.com"
+ll /root/.ssh/
+cat /root/.ssh/id_rsa.pub 
+curl -I https://github.com/theskyareblue/testdemo.git
+git push origin master
+git remote set-url origin https://github.com/theskyareblue/testdemo.git
+git push -u origin master
+git status
+git push -u origin master
+git push
+git remote add origin https://github.com/theskyareblue/testdemo.git
+git pull origin master
+git push -u origin master
+git commit -A
+git commit -a
+git add -A
+git commit -m "dddd"
+git push -u origin master
+git branch -d dev1
+git branch -d dev2
+git branch -d v2
+git branch
+git push -u origin master
+git push  origin master
+git push
+git pull
+git push  origin master
+git branch
+git remote set-url origin https://github.com/theskyareblue/testdemo.git
+git push -u origin master
+git push
+git config --global http.proxy
+git config --global --unset http.proxy
+git push -u origin master
+git pull https://github.com/theskyareblue/testdemo.git
+git push
+git branck
+git branch
