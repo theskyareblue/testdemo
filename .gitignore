@@ -1,0 +1,5 @@
+target
+.Xauthority
+.ssh/id_rsa
+.bash_history
+/root/.viminfo
