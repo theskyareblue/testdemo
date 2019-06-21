@@ -14,8 +14,8 @@
 $
 
 # Command Line History (newest to oldest):
-:q
 :wq
+:q
 :8080
 :set num
 :q!
@@ -72,21 +72,23 @@ $
 	)
 
 # 文件标记:
-'0  28  0  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
-'1  25  8  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
-'2  24  37  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
-'3  1  0  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller
-'4  37  15  ~/t1.sh
-'5  12  0  ~/.git/config
-'6  36  20  ~/t1.sh
-'7  35  20  ~/t1.sh
-'8  26  10  ~/install_git.sh
-'9  17  6  ~/install_git.sh
+'0  3  10  ~/.gitignore
+'1  24  8  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
+'2  28  0  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
+'3  25  8  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
+'4  1  0  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller
+'5  37  15  ~/t1.sh
+'6  12  0  ~/.git/config
+'7  36  20  ~/t1.sh
+'8  35  20  ~/t1.sh
+'9  26  10  ~/install_git.sh
 
 # 跳转列表 (从新到旧):
+-'  3  10  ~/.gitignore
+-'  1  0  ~/.gitignore
+-'  24  8  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
 -'  28  0  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
 -'  25  8  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
--'  24  8  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
 -'  1  0  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
 -'  1  0  ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller
 -'  37  15  ~/t1.sh
@@ -184,12 +186,19 @@ $
 
 # 文件内的标记历史记录 (从新到旧):
 
+> ~/.gitignore
+	"	3	10
+	^	3	11
+	.	3	0
+	+	3	0
+
 > ~/demo/xd-class/springboot-demo/src/main/java/com/wiggin/springboot/demo/controller/StudentController.java
-	"	28	0
-	^	25	39
-	.	25	38
+	"	24	8
+	^	24	34
+	.	24	34
 	+	24	37
 	+	25	38
+	+	24	34
 
 > ~/t1.sh
 	"	37	15
@@ -404,47 +413,3 @@ $
 	+	54	15
 	+	53	2
 	+	54	63
-
-> /opt/local/t2.py
-	"	22	0
-	^	22	1
-	.	18	1
-	+	23	0
-	+	23	5
-	+	23	0
-	+	23	37
-	+	23	40
-	+	23	38
-	+	23	47
-	+	23	46
-	+	23	48
-	+	23	46
-	+	23	0
-	+	23	0
-	+	6	50
-	+	13	22
-	+	14	10
-	+	18	7
-	+	14	0
-	+	15	0
-	+	18	0
-	+	15	6
-	+	13	17
-	+	15	6
-	+	18	10
-	+	19	25
-	+	20	32
-	+	22	14
-	+	1	12
-	+	19	2
-	+	21	5
-	+	16	23
-	+	17	19
-	+	19	22
-	+	16	27
-	+	18	10
-	+	22	17
-	+	15	8
-	+	11	29
-	+	16	13
-	+	18	1
